@@ -109,6 +109,5 @@ Pair * firstTreeMap(TreeMap * tree) {
 }
 
 Pair * nextTreeMap(TreeMap * tree) {
-    TreeNode * aux = minimum(tree->current);
     return NULL;
 }
