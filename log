@@ -118,3 +118,9 @@ treemap.c:43:9: error: unused variable ‘lower_than’ [-Werror=unused-variable
 cc1: all warnings being treated as errors
 Compilation failed
 854941a
+Thu Apr 21 22:51:26 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  14|5
+total_score: 15/70
+7238312
