@@ -1,0 +1,6 @@
+Thu Apr 21 16:10:13 UTC 2022: 
+ treemap.c | 28 ++++++++++++++++++++++++++--
+ 1 file changed, 26 insertions(+), 2 deletions(-)
+ tests:  12|5
+total_score: 15/70
+3b495a6
