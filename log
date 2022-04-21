@@ -218,3 +218,15 @@ treemap.c:44:3: error: ‘new’ undeclared (first use in this function); did yo
 treemap.c:44:3: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 e0cad89
+Thu Apr 21 22:57:16 UTC 2022: 
+ treemap.c | 4 ----
+ 1 file changed, 4 deletions(-)
+In file included from test.c:4:0:
+treemap.c: In function ‘createTreeMap’:
+treemap.c:43:3: error: ‘new’ undeclared (first use in this function); did you mean ‘getw’?
+   new->lower_than = lower_than;
+   ^~~
+   getw
+treemap.c:43:3: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+336522a
