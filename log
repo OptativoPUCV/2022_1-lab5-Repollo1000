@@ -15,3 +15,14 @@ treemap.c:115:1: error: control reaches end of non-void function [-Werror=return
 cc1: all warnings being treated as errors
 Compilation failed
 a169505
+Thu Apr 21 22:25:10 UTC 2022: 
+ treemap.c | 1 -
+ 1 file changed, 1 deletion(-)
+In file included from test.c:4:0:
+treemap.c: In function ‘nextTreeMap’:
+treemap.c:112:16: error: unused variable ‘aux’ [-Werror=unused-variable]
+     TreeNode * aux = minimum(tree->current);
+                ^~~
+cc1: all warnings being treated as errors
+Compilation failed
+945983b
