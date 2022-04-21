@@ -52,3 +52,15 @@ treemap.c:56:15: error: expected identifier before ‘)’ token
                ^
 Compilation failed
 6584744
+Thu Apr 21 15:38:04 UTC 2022: 
+ treemap.c | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+In file included from test.c:4:0:
+treemap.c: In function ‘minimum’:
+treemap.c:52:20: error: ‘tree’ undeclared (first use in this function); did you mean ‘free’?
+   TreeNode * aux = tree->root;
+                    ^~~~
+                    free
+treemap.c:52:20: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+01a7659
