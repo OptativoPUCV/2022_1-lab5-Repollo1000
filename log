@@ -1,0 +1,10 @@
+Thu Apr 21 15:29:32 UTC 2022: 
+ treemap.c | 13 +++++++++++++
+ 1 file changed, 13 insertions(+)
+In file included from test.c:4:0:
+treemap.c: In function ‘searchTreeMap’:
+treemap.c:79:13: error: too few arguments to function ‘tree->lower_than’
+     else if(tree->lower_than(aux->pair->key)==1)
+             ^~~~
+Compilation failed
+3b495a6
