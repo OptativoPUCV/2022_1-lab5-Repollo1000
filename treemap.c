@@ -99,13 +99,22 @@ Pair * searchTreeMap(TreeMap * tree, void* key) {
 
 
 Pair * upperBound(TreeMap * tree, void* key) {
+    
     return NULL;
 }
 
 Pair * firstTreeMap(TreeMap * tree) {
-    return NULL;
+    TreeNode * aux = minimum(tree->root);
+    return aux->pair;
 }
 
 Pair * nextTreeMap(TreeMap * tree) {
+  TreeMap * aux = tree->current;
+  if(aux->right != NULL)
+  {
+    aux aux->right;
+    tree->current = aux;
+    return aux->pair;
+  }
     return NULL;
 }
