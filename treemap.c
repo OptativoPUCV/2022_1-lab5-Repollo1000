@@ -206,7 +206,7 @@ TreeNode * aux = tree->current;
   }
   else
   {
-    while (aux != NULL)
+    while (aux->parent != NULL)
     {
       if(tree->lower_than(actual->pair->key,aux->parent->pair->key)==1)
       {
