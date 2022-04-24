@@ -200,7 +200,7 @@ TreeNode * aux = tree->current;
   }
   if(actual->right != NULL)
   {
-    actual = minimum(tree->current);
+    actual = minimum(tree->current->right);
     tree->current = actual;
     return actual->pair;
   }
