@@ -198,11 +198,8 @@ TreeNode * aux = tree->current;
   {
     return NULL;
   }
-  if(is_equal(tree,tree->current->pair->key,tree->root->pair->key))
-  {
-    return tree->current->pair;
-  }
-  else if(actual->right != NULL)
+
+  if(actual->right != NULL)
   {
     actual = minimum(tree->current->right);
     tree->current = actual;
@@ -210,6 +207,10 @@ TreeNode * aux = tree->current;
   }
   else
   {
+    if(is_equal(tree,tree->current->pair->key,tree->root->pair->key))
+    {
+      return tree->current->pair;
+    }
     while (aux->parent != NULL)
     {
       if(tree->lower_than(actual->pair->key,aux->parent->pair->key)==1)
