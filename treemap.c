@@ -156,11 +156,6 @@ Pair * searchTreeMap(TreeMap * tree, void* key) {
 
 
 Pair * upperBound(TreeMap * tree, void* key) {
-  TreeNode * Nodo = NULL;
-  TreeNode * aux = tree->root;
-  if(tree == NULL)return;
-
-  if(searchTreeMap(tree,key)!=NULL)
     return NULL;
 }
 
