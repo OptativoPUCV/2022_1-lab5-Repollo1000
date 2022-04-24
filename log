@@ -693,3 +693,9 @@ treemap.c:123:5: error: expected ';' before '}' token
      ^
 Compilation failed
 83be8e1
+Sun Apr 24 19:55:11 HSP 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  27|1
+total_score: 60/70
+2aa9c26
