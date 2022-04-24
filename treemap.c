@@ -121,7 +121,7 @@ void removeNode(TreeMap * tree, TreeNode* node) {
         aux->parent->right = aux->left;
     }
   }
-  return NULL;
+ 
 }
 
 void eraseTreeMap(TreeMap * tree, void* key){
@@ -164,6 +164,7 @@ Pair * firstTreeMap(TreeMap * tree) {
 }
 
 Pair * nextTreeMap(TreeMap * tree) {
+  
   TreeNode * actual = tree->current;
   TreeNode * aux = tree->current;
  if(tree == NULL)
