@@ -181,8 +181,8 @@ Pair * upperBound(TreeMap * tree, void* key) {
         aux = aux->right;
       }
     }
-    if(nodo == NULL)return NULL;
    }
+  if(nodo == NULL)return NULL;
   return nodo->pair;
 }
 
