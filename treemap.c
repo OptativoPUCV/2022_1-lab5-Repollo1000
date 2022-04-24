@@ -224,5 +224,5 @@ TreeNode * aux = tree->current;
       if(aux == NULL)return NULL;
     }
   }
-  return NULL;
+  return actual->pair;
 }
