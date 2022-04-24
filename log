@@ -339,3 +339,21 @@ Sun Apr 24 16:16:42 HSP 2022:
  tests:  17|3
 total_score: 30/70
 4c3ebe9
+Sun Apr 24 17:37:29 HSP 2022: 
+ treemap.c | 25 +++++++++++++++++++++++--
+ 1 file changed, 23 insertions(+), 2 deletions(-)
+In file included from test.c:4:0:
+treemap.c: In function 'removeNode':
+treemap.c:105:20: error: initialization from incompatible pointer type [-Werror=incompatible-pointer-types]
+   TreeNode * aux = searchTreeMap(tree, node->pair->key);
+                    ^~~~~~~~~~~~~
+treemap.c: In function 'nextTreeMap':
+treemap.c:173:5: error: 'return' with no value, in function returning non-void [-Werror]
+     return;
+     ^~~~~~
+treemap.c:168:8: note: declared here
+ Pair * nextTreeMap(TreeMap * tree) {
+        ^~~~~~~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+a1c172f
