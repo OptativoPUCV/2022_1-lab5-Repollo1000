@@ -174,7 +174,7 @@ Pair * nextTreeMap(TreeMap * tree) {
       }
       else
       {
-          return NULL;
+          return aux->pair;;
       }
     }
   }
