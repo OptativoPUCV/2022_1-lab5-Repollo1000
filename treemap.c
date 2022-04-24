@@ -73,8 +73,8 @@ void insertTreeMap(TreeMap * tree, void* key, void * value) {
   }
   TreeNode * nuevo = createTreeNode(key,value);
 
-  nuevo->parent = parent->parent;
-  if(parent == NULL)
+  nuevo->parent = parent;
+  if(parent->parent == NULL)
   {
     tree->root = nuevo;
     
@@ -138,6 +138,7 @@ Pair * searchTreeMap(TreeMap * tree, void* key) {
 
 
 Pair * upperBound(TreeMap * tree, void* key) {
+
     
     return NULL;
 }
