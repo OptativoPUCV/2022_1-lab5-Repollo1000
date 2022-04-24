@@ -445,3 +445,9 @@ treemap.c:166:8: note: declared here
 cc1.exe: all warnings being treated as errors
 Compilation failed
 3d5992b
+Sun Apr 24 17:55:48 HSP 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  17|3
+total_score: 30/70
+1acbbc3

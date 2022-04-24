@@ -164,12 +164,12 @@ Pair * firstTreeMap(TreeMap * tree) {
 }
 
 Pair * nextTreeMap(TreeMap * tree) {
-  
+
   TreeNode * actual = tree->current;
   TreeNode * aux = tree->current;
  if(tree == NULL)
   {
-    return;
+    return NULL;
   }
   if(actual->right != NULL)
   {
