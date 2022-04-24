@@ -182,8 +182,7 @@ Pair * upperBound(TreeMap * tree, void* key) {
       }
     }
    }
-  
-    return NULL;
+    return nodo->pair;
 }
 
 Pair * firstTreeMap(TreeMap * tree) {
