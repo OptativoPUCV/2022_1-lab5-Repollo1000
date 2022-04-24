@@ -357,3 +357,38 @@ treemap.c:168:8: note: declared here
 cc1.exe: all warnings being treated as errors
 Compilation failed
 a1c172f
+Sun Apr 24 17:50:25 HSP 2022: 
+ treemap.c | 7 +++++--
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+In file included from test.c:4:0:
+treemap.c: In function 'removeNode':
+treemap.c:105:20: error: initialization from incompatible pointer type [-Werror=incompatible-pointer-types]
+   TreeNode * aux = searchTreeMap(tree, node->pair->key);
+                    ^~~~~~~~~~~~~
+treemap.c: In function 'upperBound':
+treemap.c:161:19: error: 'return' with no value, in function returning non-void [-Werror]
+   if(tree == NULL)return;
+                   ^~~~~~
+treemap.c:158:8: note: declared here
+ Pair * upperBound(TreeMap * tree, void* key) {
+        ^~~~~~~~~~
+treemap.c:160:14: error: unused variable 'aux' [-Werror=unused-variable]
+   TreeNode * aux = tree->root;
+              ^~~
+treemap.c:159:14: error: unused variable 'Nodo' [-Werror=unused-variable]
+   TreeNode * Nodo = NULL;
+              ^~~~
+treemap.c: In function 'nextTreeMap':
+treemap.c:177:5: error: 'return' with no value, in function returning non-void [-Werror]
+     return;
+     ^~~~~~
+treemap.c:172:8: note: declared here
+ Pair * nextTreeMap(TreeMap * tree) {
+        ^~~~~~~~~~~
+treemap.c: In function 'upperBound':
+treemap.c:165:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+6ef5ee2
