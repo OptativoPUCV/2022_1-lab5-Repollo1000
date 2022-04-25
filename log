@@ -725,3 +725,9 @@ treemap.c:137:13: error: expected expression before ')' token
              ^
 Compilation failed
 20e8db8
+Sun Apr 24 20:05:39 HSP 2022: 
+ treemap.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  27|1
+total_score: 60/70
+60439fd
